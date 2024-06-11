@@ -13,7 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -48,19 +48,13 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
   padding: 0;
   gap: 16px;
 }
 
-ul, .left-wrapper, .right-wrapper {
+.left-wrapper, .right-wrapper {
   display: flex;
-}
-
-.right-wrapper {
-  margin-left: auto;
   gap: 16px;
-}
-
-.logo {
-  margin-right: 16px;
+  align-items: center;
 }
