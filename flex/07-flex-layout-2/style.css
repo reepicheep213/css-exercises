@@ -42,7 +42,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   margin: 0;
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 .content {
@@ -56,12 +56,16 @@ body {
 }
 
 ul {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
+  gap: 16px; */
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
